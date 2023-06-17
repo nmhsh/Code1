@@ -25,7 +25,7 @@ window.key1.click(()=>{
 })
 
 auto()
-log('Ver: 3')
+log('Ver: 4')
 sleep(4000)
 let check = false
 let checkSWIPE = false
