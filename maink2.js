@@ -25,7 +25,7 @@ window.key1.click(()=>{
 })
 
 auto()
-log('Ver: 1')
+log('Ver: 2')
 sleep(4000)
 let check = false
 let checkSWIPE = false
@@ -58,7 +58,8 @@ function Start(){
   let money = id("com.lyft.android.driver:id/design_core_map_components_bubble_text").find()
   let arr =[]
   if(money){
-    log("MONEY")
+    log(money)
+    exit()
     money.forEach(i => {
       let str = i.text()
       log(str)
