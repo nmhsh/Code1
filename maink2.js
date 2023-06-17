@@ -10,7 +10,7 @@ let window = floaty.window(
 window.key.click(()=>{
     if(window.key.getText()=='START'){
       window.key.setText("STOP")
-      chestSTART = true 
+      chestSTART = true
       toast("Start")
     } else{
       window.key.setText("START")
@@ -61,8 +61,21 @@ function Start(){
         })
       }
       if(arr.length>0){
-        alert(arr)
-        exit()
+        arr.sort((a,b)=>b.TIEN-a.TIEN)
+        for(var i= 0;i<arr.length;i++){
+          let checkR = false
+          for(var j = i+1;j<arr.length;j++){
+            if(arr[i].region.contains(arr[j].region)){
+              checkR = true
+              break
+            }
+          }
+          if(!checkR){
+            click(arr[i].region.centerX(),arr[i].region.centerY())
+            alert('XONG')
+            exit()
+          }
+        }
       }
     }
   }
@@ -70,6 +83,6 @@ function Start(){
 }
 let luong = setInterval(()=>{
   if(chestSTART) Start()
-},10)
+},100)
 
 
