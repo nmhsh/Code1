@@ -29,6 +29,7 @@ let check = false
 let checkSWIPE = false
 function Start(){
   if(currentPackage() != 'com.lyft.android.driver'){
+    log('Open APP')
     app.launch('com.lyft.android.driver')
     sleep(2000)
   }
@@ -40,6 +41,7 @@ function Start(){
       click(scheduled.bounds(). centerX(), scheduled.bounds().centerY())
       check = true
       sleep(4000)
+      log('SWIPE')
     }
   } else {
     if(!checkSWIPE) {
@@ -54,6 +56,7 @@ function Start(){
   let money = id("com.lyft.android.driver:id/design_core_map_components_bubble_text").find()
   let arr =[]
   if(money){
+    log("MONEY")
     money.forEach(i => {
       arr.push({
         TIEN : i.text().replace ("$",""),
@@ -61,6 +64,7 @@ function Start(){
       })
     })
   }
+  log('MN :' +arr.length)
   if(arr.length>0){
     arr.sort((a,b)=>b.TIEN-a.TIEN)
     for(var i= 0;i<arr.length;i++){
@@ -80,6 +84,7 @@ function Start(){
   }
 
 }
+console.show()
 let luong = setInterval(()=>{
   if(chestSTART) Start()
 },100)
