@@ -42,8 +42,10 @@ function Start(){
     }
   } else {
     if(!checkSWIPE) {
-      gestures([0, 500, [440,900], [540,1158]],
-        [0, 500, [640, 1300], [540, 1158]])
+      for(var i = 0;i<3;i++){
+        gestures([0, 500, [440,900], [540,1158]],
+          [0, 500, [640, 1300], [540, 1158]])
+      }
         checkSWIPE = true
         alert("SWIPE")
         exit()
