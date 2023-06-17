@@ -49,25 +49,25 @@ function Start(){
           sleep(1000)
       }
         checkSWIPE = true
-    }
-    let money = id("com.lyft.android.driver:id/design_core_map_components_bubble_text").find()
-    let arr =[]
-    if(money){
-      money.forEach(i => {
-        arr.push({
-          TIEN : i.text().replace ("$",""),
-          region: i.bounds()
+    } else {
+      let money = id("com.lyft.android.driver:id/design_core_map_components_bubble_text").find()
+      let arr =[]
+      if(money){
+        money.forEach(i => {
+          arr.push({
+            TIEN : i.text().replace ("$",""),
+            region: i.bounds()
+          })
         })
-      })
-    }
-    if(arr.length>0){
-      log(arr)
-      exit()
+      }
+      if(arr.length>0){
+        alert(arr)
+        exit()
+      }
     }
   }
 
 }
-console.show()
 let luong = setInterval(()=>{
   if(chestSTART) Start()
 },10)
