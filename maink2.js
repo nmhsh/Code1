@@ -25,7 +25,7 @@ window.key1.click(()=>{
 })
 
 auto()
-log('Ver: 2')
+log('Ver: 3')
 sleep(4000)
 let check = false
 let checkSWIPE = false
@@ -58,9 +58,7 @@ function Start(){
   let money = id("com.lyft.android.driver:id/design_core_map_components_bubble_text").find()
   let arr =[]
   if(money){
-    log(money)
-    exit()
-    money.forEach(i => {
+    money.forEach(function(i){
       let str = i.text()
       log(str)
       if(!str){
@@ -74,9 +72,10 @@ function Start(){
       })
     })
   }
-  log('MN :' +arr.length)
+  log(arr.length)
   if(arr.length>0){
     arr.sort((a,b)=>b.TIEN-a.TIEN)
+    log()
     for(var i= 0;i<arr.length;i++){
       let checkR = false
       for(var j = i+1;j<arr.length;j++){
@@ -97,6 +96,6 @@ function Start(){
 console.show()
 let luong = setInterval(()=>{
   if(chestSTART) Start()
-},100)
+},500)
 
 
