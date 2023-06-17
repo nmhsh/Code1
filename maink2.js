@@ -55,7 +55,7 @@ function Start(){
         checkSWIPE = true
     }
   }
-  let money = id("com.lyft.android.driver:id/design_core_map_components_bubble_text").find()
+  let money = id("design_core_map_components_bubble_text").find()
   let arr =[]
   if(money){
     money.forEach(function(i){
