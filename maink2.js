@@ -49,33 +49,32 @@ function Start(){
           sleep(1000)
       }
         checkSWIPE = true
-    } else {
-      let money = id("com.lyft.android.driver:id/design_core_map_components_bubble_text").find()
-      let arr =[]
-      if(money){
-        money.forEach(i => {
-          arr.push({
-            TIEN : i.text().replace ("$",""),
-            region: i.bounds()
-          })
-        })
-      }
-      if(arr.length>0){
-        arr.sort((a,b)=>b.TIEN-a.TIEN)
-        for(var i= 0;i<arr.length;i++){
-          let checkR = false
-          for(var j = i+1;j<arr.length;j++){
-            if(arr[i].region.contains(arr[j].region)){
-              checkR = true
-              break
-            }
-          }
-          if(!checkR){
-            click(arr[i].region.centerX(),arr[i].region.centerY())
-            alert('XONG')
-            exit()
-          }
+    }
+  }
+  let money = id("com.lyft.android.driver:id/design_core_map_components_bubble_text").find()
+  let arr =[]
+  if(money){
+    money.forEach(i => {
+      arr.push({
+        TIEN : i.text().replace ("$",""),
+        region: i.bounds()
+      })
+    })
+  }
+  if(arr.length>0){
+    arr.sort((a,b)=>b.TIEN-a.TIEN)
+    for(var i= 0;i<arr.length;i++){
+      let checkR = false
+      for(var j = i+1;j<arr.length;j++){
+        if(arr[i].region.contains(arr[j].region)){
+          checkR = true
+          break
         }
+      }
+      if(!checkR){
+        click(arr[i].region.centerX(),arr[i].region.centerY())
+        alert('XONG')
+        exit()
       }
     }
   }
