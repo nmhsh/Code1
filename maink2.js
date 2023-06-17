@@ -39,7 +39,8 @@ function Start(){
     if(scheduled){
       click(scheduled.bounds(). centerX(), scheduled.bounds().centerY())
       check = true
-      sleep(2000)
+      sleep(4000)
+      toast("true")
     }
   } else {
     if(!checkSWIPE) {
