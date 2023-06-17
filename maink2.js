@@ -58,8 +58,13 @@ function Start(){
   if(money){
     log("MONEY")
     money.forEach(i => {
+      let str = i.text().replace ("$","")
+      log(str)
+      if(!str){
+        str = 0
+      }
       arr.push({
-        TIEN : i.text().replace ("$",""),
+        TIEN : str,
         region: i.bounds()
       })
     })
