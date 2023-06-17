@@ -39,12 +39,14 @@ function Start(){
     if(scheduled){
       click(scheduled.bounds(). centerX(), scheduled.bounds().centerY())
       check = true
+      sleep(2000)
     }
   } else {
     if(!checkSWIPE) {
       for(var i = 0;i<3;i++){
         gestures([0, 500, [440,900], [540,1158]],
           [0, 500, [640, 1300], [540, 1158]])
+          sleep(1000)
       }
         checkSWIPE = true
         alert("SWIPE")
