@@ -40,23 +40,34 @@ function Start(){
       click(scheduled.bounds(). centerX(), scheduled.bounds().centerY())
       check = true
       sleep(4000)
-      toast("true")
     }
   } else {
     if(!checkSWIPE) {
-      for(var i = 0;i<3;i++){
+      for(var i = 0;i<2;i++){
         gestures([0, 500, [440,900], [540,1158]],
           [0, 500, [640, 1300], [540, 1158]])
           sleep(1000)
       }
         checkSWIPE = true
-        alert("SWIPE")
-        exit()
+    }
+    let money = id("com.lyft.android.driver:id/design_core_map_components_bubble_text").find()
+    let arr =[]
+    if(money){
+      money.forEach(i => {
+        arr.push({
+          TIEN : i.text().replace ("$",""),
+          region: i.bounds()
+        })
+      })
+    }
+    if(arr.length>0){
+      log(arr)
+      exit()
     }
   }
 
 }
-
+console.show()
 let luong = setInterval(()=>{
   if(chestSTART) Start()
 },10)
