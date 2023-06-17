@@ -25,7 +25,7 @@ window.key1.click(()=>{
 })
 
 auto()
-log('Ver: 0')
+log('Ver: 1')
 sleep(4000)
 let check = false
 let checkSWIPE = false
@@ -60,10 +60,12 @@ function Start(){
   if(money){
     log("MONEY")
     money.forEach(i => {
-      let str = i.text().replace ("$","")
+      let str = i.text()
       log(str)
       if(!str){
         str = 0
+      } else {
+        str = str.replace ("$","")
       }
       arr.push({
         TIEN : str,
