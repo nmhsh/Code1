@@ -1,0 +1,34 @@
+#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
+
+#EXTINF:-1 tvg-id="vtv1hd" group-title="ALL" tvg-logo="https://img.vnmedia.xyz/logo/vtv1hd.jpg", VTV1 HD
+https://live-ali2.tv360.vn/manifest/VTV1_HD/playlist_1080p.m3u8
+
+#EXTINF:-1 tvg-id="vtv2hd" group-title="ALL" tvg-logo="https://img.vnmedia.xyz/logo/vtv2hd.jpg", VTV2 HD
+http://live.tv360.vn/manifest/vtv2/playlist_VTV2-1080-3_6M.m3u8
+#EXTINF:-1 tvg-id="vtv3hd" group-title="ALL" tvg-logo="https://img.vnmedia.xyz/logo/vtv3hd.jpg", VTV3 HD
+https://live-zlr1.tv360.vn/manifest/VTV3/playlist_720p.m3u8
+#EXTINF:-1 tvg-id="vtv4hd" group-title="ALL" tvg-logo="https://img.vnmedia.xyz/logo/vtv4hd.jpg", VTV4 HD
+http://donglao.duckdns.org/vn360sport/viettel.php?id=108
+
+#EXTINF:-1 tvg-id="vtv5hd" group-title="ALL" tvg-logo="https://img.vnmedia.xyz/logo/vtv5hd.jpg", VTV5 HD
+https://live-ali2.tv360.vn/manifest/VTV5_HD_50fps/playlist_VTV5-HD-50fps-1080P-5M.m3u8
+
+#EXTINF:-1 tvg-id="vtv6hd" group-title="ALL" tvg-logo="https://img.vnmedia.xyz/logo/vtv6hd.jpg", VTV6  HD
+http://live-zlr1.tv360.vn/manifest/VTV6_HD/playlist_1080p.m3u8
+#EXTINF:-1 tvg-id="vtv7hd" ​​group-title="ALL" tvg-logo="https://img.vnmedia.xyz/logo/vtv7hd.jpg", VTV7 HD
+http://donglao.duckdns.org/vn360sport/viettel.php?id=6
+#EXTINF:-1 tvg-id="vtv8hd" group-title="ALL" tvg-logo="https://img.vnmedia.xyz/logo/vtv8hd.jpg", VTV8 HD
+http://donglao.duckdns.org/vn360sport/viettel.php?id=115
+#EXTINF:-1 tvg-id="vtv9hd" group-title="ALL" tvg-logo="https://img.vnmedia.xyz/logo/vtv9hd.jpg", VTV9 HD
+http://donglao.duckdns.org/vn360sport/viettel.php?id=8
+
+#EXTINF:-1 tvg-id="vinhlong1hd" group-title="ALL" tvg-logo="https://i.imgur.com/q3fjpYc.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/vinhlong1hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8",THVL1 HD - Vĩnh Long 1
+http://live-ali4.tv360.vn/manifest/Vinh_Long_1_HD/playlist_1080p.m3u8
+#EXTINF:-1 tvg-id="vinhlong2hd" group-title="ALL" tvg-logo="https://i.imgur.com/Hq2m18a.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/vinhlong2hd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",THVL2 HD - Vĩnh Long 2
+http://live-ali4.tv360.vn/manifest/VinhLong2_HD/playlist_1080p.m3u8
+#EXTINF:-1 tvg-id="vinhlong3hd" group-title="ALL" tvg-logo="https://i.imgur.com/zS1zTpv.png",THVL3 HD - Vĩnh Long 3
+http://live-ali4.tv360.vn/manifest/VinhLong3_HD/playlist_1080p.m3u8
+#EXTINF:-1 tvg-id="vinhlong4hd" group-title="ALL" tvg-logo="https://i.imgur.com/tbZo2NR.png",THVL4 HD - Vĩnh Long 4
+http://live.tv360.vn/manifest/VinhLong4_HD/playlist_1080p.m3u8
+#EXTINF:-1 tvg-id="quangngai" group-title="ALL" tvg-logo="https://i.imgur.com/Xh6cZmD.png",PTQ HD - QUẢNG NGÃI
+http://118.107.85.5:1935/live/smil:PTQ.smil/playlist.m3u8
