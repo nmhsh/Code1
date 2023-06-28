@@ -1,34 +1,148 @@
-#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
+#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/beartv_epg.xml" tvg-shift=0 m3uautoload=1
 
-#EXTINF:-1 tvg-id="vtv1hd" group-title="ALL" tvg-logo="https://img.vnmedia.xyz/logo/vtv1hd.jpg", VTV1 HD
-https://live-ali2.tv360.vn/manifest/VTV1_HD/playlist_1080p.m3u8
+#EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://i.ibb.co/mBHRZbg/VTV1-BEARTV.png",VTV1       
+https://vips-livecdn.fptplay.net/Tm9uZXx2dHYxaGRfNDAwMC5zdHJlYW18dm5wdHwxNjg3OTIzMjA0fDE0LjE3NC4yNTEuMjIxfGZmZWRmNWNiN2MxN2QwODU3ZGY4YmZiN2U0MTk5YThm/fnxhd1/vtv1hd_4000.stream/chunklist.m3u8
 
-#EXTINF:-1 tvg-id="vtv2hd" group-title="ALL" tvg-logo="https://img.vnmedia.xyz/logo/vtv2hd.jpg", VTV2 HD
-http://live.tv360.vn/manifest/vtv2/playlist_VTV2-1080-3_6M.m3u8
-#EXTINF:-1 tvg-id="vtv3hd" group-title="ALL" tvg-logo="https://img.vnmedia.xyz/logo/vtv3hd.jpg", VTV3 HD
-https://live-zlr1.tv360.vn/manifest/VTV3/playlist_720p.m3u8
-#EXTINF:-1 tvg-id="vtv4hd" group-title="ALL" tvg-logo="https://img.vnmedia.xyz/logo/vtv4hd.jpg", VTV4 HD
-http://donglao.duckdns.org/vn360sport/viettel.php?id=108
+#EXTINF:-1 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://i.ibb.co/1rGZzbN/VTV2-BEARTV.png",VTV2
+http://live-ali4.tv360.vn/manifest/vtv2/playlist_1080p.m3u8
 
-#EXTINF:-1 tvg-id="vtv5hd" group-title="ALL" tvg-logo="https://img.vnmedia.xyz/logo/vtv5hd.jpg", VTV5 HD
-https://live-ali2.tv360.vn/manifest/VTV5_HD_50fps/playlist_VTV5-HD-50fps-1080P-5M.m3u8
+#EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://i.ibb.co/hKgN4RG/VTV3-BEARTV.png",VTV3      
+http://live-zlr1.tv360.vn/manifest/VTV3/playlist_1080p-5M.m3u8
 
-#EXTINF:-1 tvg-id="vtv6hd" group-title="ALL" tvg-logo="https://img.vnmedia.xyz/logo/vtv6hd.jpg", VTV6  HD
-http://live-zlr1.tv360.vn/manifest/VTV6_HD/playlist_1080p.m3u8
-#EXTINF:-1 tvg-id="vtv7hd" ​​group-title="ALL" tvg-logo="https://img.vnmedia.xyz/logo/vtv7hd.jpg", VTV7 HD
-http://donglao.duckdns.org/vn360sport/viettel.php?id=6
-#EXTINF:-1 tvg-id="vtv8hd" group-title="ALL" tvg-logo="https://img.vnmedia.xyz/logo/vtv8hd.jpg", VTV8 HD
-http://donglao.duckdns.org/vn360sport/viettel.php?id=115
-#EXTINF:-1 tvg-id="vtv9hd" group-title="ALL" tvg-logo="https://img.vnmedia.xyz/logo/vtv9hd.jpg", VTV9 HD
-http://donglao.duckdns.org/vn360sport/viettel.php?id=8
+#EXTINF:-1 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://i.ibb.co/928wSRc/VTV4-BEARTV.png",VTV4       
+http://drfamaga5qliv.vcdn.cloud/vtv04/vtv04@1080p.m3u8
 
-#EXTINF:-1 tvg-id="vinhlong1hd" group-title="ALL" tvg-logo="https://i.imgur.com/q3fjpYc.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/vinhlong1hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8",THVL1 HD - Vĩnh Long 1
-http://live-ali4.tv360.vn/manifest/Vinh_Long_1_HD/playlist_1080p.m3u8
-#EXTINF:-1 tvg-id="vinhlong2hd" group-title="ALL" tvg-logo="https://i.imgur.com/Hq2m18a.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/vinhlong2hd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",THVL2 HD - Vĩnh Long 2
-http://live-ali4.tv360.vn/manifest/VinhLong2_HD/playlist_1080p.m3u8
-#EXTINF:-1 tvg-id="vinhlong3hd" group-title="ALL" tvg-logo="https://i.imgur.com/zS1zTpv.png",THVL3 HD - Vĩnh Long 3
-http://live-ali4.tv360.vn/manifest/VinhLong3_HD/playlist_1080p.m3u8
-#EXTINF:-1 tvg-id="vinhlong4hd" group-title="ALL" tvg-logo="https://i.imgur.com/tbZo2NR.png",THVL4 HD - Vĩnh Long 4
-http://live.tv360.vn/manifest/VinhLong4_HD/playlist_1080p.m3u8
-#EXTINF:-1 tvg-id="quangngai" group-title="ALL" tvg-logo="https://i.imgur.com/Xh6cZmD.png",PTQ HD - QUẢNG NGÃI
-http://118.107.85.5:1935/live/smil:PTQ.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://i.ibb.co/bKfw6Tc/VTV5-BEARTV.png",VTV5 [50fps]
+http://live-ali4.tv360.vn/manifest/VTV5_HD_50fps/playlist_VTV5-HD-50fps-1080P-65M.m3u8
+
+#EXTINF:-1 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://i.ibb.co/8cghHq1/vtv-cantho-BEARTV.png",VTV CẦN THƠ
+http://live-ali2.tv360.vn/manifest/VTV6_HD/playlist_720p.m3u8
+
+#EXTINF:-1 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://i.ibb.co/N6GVgfg/VTV7-BEARTV.png",VTV7
+http://drfamaga5qliv.vcdn.cloud/vtv07/vtv07@1080p.m3u8
+
+#EXTINF:-1 tvg-id="vtv8hd"group-title="VTV" tvg-logo="https://i.ibb.co/FYvN38c/VTV8-BEARTV.png",VTV8
+http://drfamaga5qliv.vcdn.cloud/vtv08/vtv08@1080p.m3u8
+
+#EXTINF:-1 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://i.ibb.co/Q671mTF/VTV9-BEARTV.png",VTV9
+http://drfamaga5qliv.vcdn.cloud/vtv09/vtv09@1080p.m3u8
+
+#EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="https://i.ibb.co/Hnc1LPG/VTV5-TNB-BEARTV.png",VTV5 TÂY NAM BỘ
+https://code.vthanhtivi.pw/getlink/mytv/615/hd.m3u8
+
+#EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",VTV5 TÂY NGUYÊN
+https://code.vthanhtivi.pw/getlink/tv360/207/2.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",AN GIANG
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8YW5naWFuZ19obHMuc21pbHx2bnB0fDE2ODc5MjM0MTl8MTQuMTc0LjI1MS4yMjF8YjExYTk2YzUwNzY3ZWY4M2FjZmQzMTA0NDY1NzE3YzE/epzsd1/angiang_hls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",BÀ RỊA
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8YmFyaWF2dW5ndGF1XzE1MDAuc3RyZWFtfHZucHR8MTY4NzkyMzY3M3wxNC4xNzQuMjUxLjIyMXw1OTQ0YjQ0NmIxMDQ5MTNlYmFjMjQ0NjU2N2E3NWIzYQ/epzsd1/bariavungtau_1500.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",BẮC GIANG
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8YmFjZ2lhbmdfMTUwMC5zdHJlYW18dm5wdHwxNjg3OTIzNzY2fDE0LjE3NC4yNTEuMjIxfDk0MTI5Yzc4ODY2ZTBmNDc0MjkxNWFkMjYzOWM5ODdh/fnxsd1/bacgiang_1500.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",BẮC CẠN
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8YmFja2FuXzIwMDAuc3RyZWFtfHZucHR8MTY4NzkyMzgzMHwxNC4xNzQuMjUxLjIyMXw1OTJlNjAyNmVkNTI1ZDc1ZWFjMGEyYmVkZjc1ODJkNw/fnxsd1/backan_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",BẠC LIÊU
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8YmFjbGlldV8xNTAwLnN0cmVhbXx2bnB0fDE2ODc5MjQwMTJ8MTQuMTc0LjI1MS4yMjF8ZmQ2ZGNiNjM2YTk5NDNkMjM1YjBhMmY3NzRlY2RjMjA/epzsd1/baclieu_1500.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",BẮC NINH
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8YmFjbmluaF8yMDAwLnN0cmVhbXx2bnB0fDE2ODc5MjQwNTl8MTQuMTc0LjI1MS4yMjF8YjRhNjdjMjcwM2U4ZTQ4ZjQ0ZjQ2MzFkNWRmYjI0Yjg/fnxsd1/bacninh_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",BẾN TRE
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8YmVudHJlXzIwMDAuc3RyZWFtfHZucHR8MTY4NzkyNDEzMXwxNC4xNzQuMjUxLjIyMXw5MjVhOWE1ZTU1Y2RiMmE3NmZiYzg5MWY2NDI5NDIxZA/epzsd1/bentre_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",BÌNH ĐỊNH
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8YmluaGRpbmhfMjAwMC5zdHJlYW18dm5wdHwxNjg3OTI0MTY3fDE0LjE3NC4yNTEuMjIxfDQ2NjhiZDk0Mjk0NTIzMDY3M2FlY2U3MGU2YzA0YjA0/epzsd1/binhdinh_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",BÌNH DƯƠNG 1
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8YnR2MV8yMDAwLnN0cmVhbXx2bnB0fDE2ODc5MjQyMDR8MTQuMTc0LjI1MS4yMjF8OGQ5MDQ3OGYzYjc3OGZiNjNhMWM4YWZiN2FhMjM3ODE/epzhd2/btv1_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",BÌNH DƯƠNG 2
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8YnR2Ml8yMDAwLnN0cmVhbXx2bnB0fDE2ODc5MjQyNDh8MTQuMTc0LjI1MS4yMjF8YjM5ZjBlNjFiNWI0NzM3YTRlOWZmNTU0YTE5NjUyNWY/epzhd2/btv2_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",BÌNH DƯƠNG 3
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8YmluaGR1b25nM18yMDAwLnN0cmVhbXx2bnB0fDE2ODc5MjQyOTV8MTQuMTc0LjI1MS4yMjF8MmVjNDM3MjUzNzVkMmUyYjczNzBmODdkMDM4M2MzNGU/epzsd1/binhduong3_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",BÌNH PHƯỚC 1
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8YmluaHBodW9jMV8yMDAwLnN0cmVhbXx2bnB0fDE2ODc5MjQzMzN8MTQuMTc0LjI1MS4yMjF8M2EzYzU1OTQzYmQ4M2IyMDFmNjM4YjhjMTkyM2E2MzI/epzsd1/binhphuoc1_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",BÌNH PHƯỚC 2
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8YmluaHBodW9jMl8yMDAwLnN0cmVhbXx2bnB0fDE2ODc5MjQzNjd8MTQuMTc0LjI1MS4yMjF8OTY2Mzk3NzIzMGIwYzVlMWM2NDVmY2EwMWE1Nzk0ZDg/epzsd1/binhphuoc2_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",BÌNH THUẬN
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8YmluaHRodWFuXzIwMDAuc3RyZWFtfHZucHR8MTY4NzkyNDQyM3wxNC4xNzQuMjUxLjIyMXxkNTA4NjBjNjRmZTE3MzMwMWEzNTcyNjYyNTU1ZjI4Yw/epzsd1/binhthuan_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",CÀ MAU
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8Y2FtYXVfMjAwMC5zdHJlYW18dm5wdHwxNjg3OTI0NDU3fDE0LjE3NC4yNTEuMjIxfDNiYzY0NzE2YzI2MTAwZGExZjdmOTIzNTRiOWY5Njk0/epzsd1/camau_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",CẦN THƠ
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8Y2FudGhvXzIwMDAuc3RyZWFtfHZucHR8MTY4NzkyNDQ5MXwxNC4xNzQuMjUxLjIyMXxmNTgyMDE5ZTE3ZWI3NzBlZjE3ZTIxNzUxMzY0MThkNw/epzsd1/cantho_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",CAO BẰNG
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8Y2FvYmFuZ18yMDAwLnN0cmVhbXx2bnB0fDE2ODc5MjQ1NDd8MTQuMTc0LjI1MS4yMjF8YTFjY2E1MjFjYmFkYTIyMDY1ZWEwMDhhNmFkZTllNWI/fnxsd1/caobang_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",ĐÀ NẴNG 1
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8ZGFuYW5nMV8yMDAwLnN0cmVhbXx2bnB0fDE2ODc5MjQ2MDZ8MTQuMTc0LjI1MS4yMjF8MDc5YjY1MjUyZmQ3MTgzMjZmMTQzMDU5NDk2MDFmYzI/epzsd1/danang1_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",ĐÀ NẴNG 2
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8ZGFuYW5nMl8yMDAwLnN0cmVhbXx2bnB0fDE2ODc5MjQ2NTd8MTQuMTc0LjI1MS4yMjF8YWM4ZDk5OTA5ZTQ2MGMyYTQyMmE1NjcyYmMwYmUzNTk/epzsd1/danang2_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",ĐẮK LẮK
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8ZGFrbGFrXzIwMDAuc3RyZWFtfHZucHR8MTY4NzkyNDY4NHwxNC4xNzQuMjUxLjIyMXwzMWNlNjI5M2Q2M2ZlY2M3MmY4MDczYmUxZmVlYzhjZg/epzsd1/daklak_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",ĐIỆN BIÊN
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8ZGllbmJpZW5fMjAwMC5zdHJlYW18dm5wdHwxNjg3OTI0NzM5fDE0LjE3NC4yNTEuMjIxfDk4OGYzYTQzNzQ2YzhjNjk1YmNlNTU3MTVhOGUwMzYy/fnxsd1/dienbien_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",ĐỒNG NAI 1
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8ZG9uZ25haTFfMjAwMC5zdHJlYW18dm5wdHwxNjg3OTI0Nzc0fDE0LjE3NC4yNTEuMjIxfGY2OWYwOGMyNjA0YjQ5ODJiM2Y1YWU1MzBjNjU1MTdm/epzsd1/dongnai1_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",ĐỒNG NAI 2
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8ZG9uZ25haTJfMjAwMC5zdHJlYW18dm5wdHwxNjg3OTI0ODA1fDE0LjE3NC4yNTEuMjIxfDgwMjk1ZTE5YTAzMTQ1ZDk0OTU1MmQ4NGYyYzQ2ODhh/epzsd1/dongnai2_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",ĐỒNG THÁP
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8ZG9uZ3RoYXBfMTUwMC5zdHJlYW18dm5wdHwxNjg3OTI0ODQ1fDE0LjE3NC4yNTEuMjIxfGQ3YjAxYWJlM2UxZjdmZjMzYjRkNzgwZGE5MGE3NGI4/epzsd1/dongthap_1500.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",GIA LAI
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8Z2lhbGFpXzIwMDAuc3RyZWFtfHZucHR8MTY4NzkyNDg3N3wxNC4xNzQuMjUxLjIyMXxkMmU2YmFjMDZjOTBlMmY2M2Q2OTJiZGQ1NmM5MzkwNQ/epzsd1/gialai_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",HÀ GIANG
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8aGFnaWFuZ18yMDAwLnN0cmVhbXx2bnB0fDE2ODc5MjQ5MjV8MTQuMTc0LjI1MS4yMjF8NTJhYjk1MDdhNzkzYzM2YmMyOWY5MTAyNmUyNmM1NWY/fnxsd1/hagiang_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",HÀ NAM
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8aGFuYW1fMTUwMC5zdHJlYW18dm5wdHwxNjg3OTI0OTYwfDE0LjE3NC4yNTEuMjIxfDBmNzVhMGM5NjlmYjE5YzZkNTM2MTEwMDE1M2E2MTkz/fnxsd1/hanam_1500.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",HÀ TĨNH
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8aGF0aW5oXzIwMDAuc3RyZWFtfHZucHR8MTY4NzkyNDk5MXwxNC4xNzQuMjUxLjIyMXwxNmFlN2IwNTc2MjZjZTNhYWVkZDA2YjUwNzYzMjhmZQ/fnxsd1/hatinh_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",HẢI DƯƠNG
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8aGFpZHVvbmdfMjAwMC5zdHJlYW18dm5wdHwxNjg3OTI1MDE5fDE0LjE3NC4yNTEuMjIxfDU1OGY1ZWRkYjkzMjIzZDI1YTAyZmE0OTgxZGY0ZDY2/fnxsd1/haiduong_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",HẢI PHÒNG
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8aGFpcGhvbmdfMjAwMC5zdHJlYW18dm5wdHwxNjg3OTI1MDYwfDE0LjE3NC4yNTEuMjIxfDBhNDNkZDI3Y2U3ZmZmYWYyNWE0OTQxNzZjOTBlNzMy/fnxsd1/haiphong_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",HẢI PHÒNG +
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8aGFpcGhvbmdwbHVzXzIwMDAuc3RyZWFtfHZucHR8MTY4NzkyNTA5NXwxNC4xNzQuMjUxLjIyMXxjZDhjYTA1Yjg1ZDI3M2FiMTA1Zjk4ZWMwMzhjZGU0OA/fnxsd1/haiphongplus_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",HẬU GIANG
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8aGF1Z2lhbmdfMjAwMC5zdHJlYW18dm5wdHwxNjg3OTI1MTMxfDE0LjE3NC4yNTEuMjIxfDY2NGQ0MjRkMmNlY2UwZTNiNTZlNmM3Y2ZmZGIwZWNj/epzsd1/haugiang_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",HÒA BÌNH
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8aG9hYmluaF8yMDAwLnN0cmVhbXx2bnB0fDE2ODc5MjUxNjR8MTQuMTc0LjI1MS4yMjF8MWY5ZDQ0MmIwYzhlNTQ4ZGFlYmVkNjQ4MjIyZTM3MzE/fnxsd1/hoabinh_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",QUẢNG NGÃI
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8cXVhbmduZ2FpXzIwMDAuc3RyZWFtfHZucHR8MTY4NzkyNTM3NnwxNC4xNzQuMjUxLjIyMXw1NWJiZjk3YTYwNzI2MDc5YTQxMDQ0MDVkN2M4NTAyNg/epzsd1/quangngai_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",VĨNH LONG 1
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8dmluaGxvbmcxXzIwMDAuc3RyZWFtfHZucHR8MTY4NzkyNTQzM3wxNC4xNzQuMjUxLjIyMXxkYzAxNjZiZWJiMGI0ODY2YzE1NzcxN2NhMWEyY2Y1Ng/epzhd2/vinhlong1_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",VĨNH LONG 2
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8dmluaGxvbmcyXzIwMDAuc3RyZWFtfHZucHR8MTY4NzkyNTQ1OXwxNC4xNzQuMjUxLjIyMXw3MjRjZjc3OTU1MmY2NzAyZDY0NGY0MDhlZDk3YzkwNw/epzhd2/vinhlong2_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",VĨNH LONG 3
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8dmluaGxvbmczXzIwMDAuc3RyZWFtfHZucHR8MTY4NzkyNTQ4NXwxNC4xNzQuMjUxLjIyMXw4YmQ3ODgwZDNmMzRjYmViNGE5OWE1MTI2MDIwZjAzOA/epzhd2/vinhlong3_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png",VĨNH LONG 4
+https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8dmluaGxvbmc0aGRfMjAwMC5zdHJlYW18dm5wdHwxNjg3OTI1NTA4fDE0LjE3NC4yNTEuMjIxfDI0ZmU3OTJhZjZlNTAyZGQyZmNkZTNmMmFlMzliZDQx/epzhd2/vinhlong4hd_2000.stream/chunklist.m3u8
