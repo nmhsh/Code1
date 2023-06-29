@@ -57,4 +57,5 @@ function START(){
     log('ERR')
   }
 }
+consolog.show()
 let luong = setInterval(()=>{},0)
