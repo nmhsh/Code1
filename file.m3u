@@ -1,7 +1,7 @@
 #EXTM3U url-tvg="http://lichphatsong.xyz/schedule/beartv_epg.xml" tvg-shift=0 m3uautoload=1
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://i.ibb.co/mBHRZbg/VTV1-BEARTV.png",VTV1       
-https://vips-livecdn.fptplay.net/Tm9uZXx2dHYxaGRfNDAwMC5zdHJlYW18dm5wdHwxNjg3OTIzMjA0fDE0LjE3NC4yNTEuMjIxfGZmZWRmNWNiN2MxN2QwODU3ZGY4YmZiN2U0MTk5YThm/fnxhd1/vtv1hd_4000.stream/chunklist.m3u8
+https://live-zlr1.tv360.vn/manifest/VTV1_HD/playlist_1080p.m3u8
 
 #EXTINF:-1 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://i.ibb.co/1rGZzbN/VTV2-BEARTV.png",VTV2
 http://live-ali4.tv360.vn/manifest/vtv2/playlist_1080p.m3u8
@@ -33,17 +33,14 @@ https://code.vthanhtivi.pw/getlink/mytv/615/hd.m3u8
 #EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png" ,VTV5 TÂY NGUYÊN
 https://code.vthanhtivi.pw/getlink/tv360/207/2.m3u8
 
-#EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/LSTRSpQ/quangngaitv-BEARTV.png",QUẢNG NGÃI
-https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8cXVhbmduZ2FpXzIwMDAuc3RyZWFtfHZucHR8MTY4NzkyNTM3NnwxNC4xNzQuMjUxLjIyMXw1NWJiZjk3YTYwNzI2MDc5YTQxMDQ0MDVkN2M4NTAyNg/epzsd1/quangngai_2000.stream/chunklist.m3u8
-
 #EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/2MVntS3/THVL1-HD-BEARTV.png",VĨNH LONG 1
-https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8dmluaGxvbmcxXzIwMDAuc3RyZWFtfHZucHR8MTY4NzkyNTQzM3wxNC4xNzQuMjUxLjIyMXxkYzAxNjZiZWJiMGI0ODY2YzE1NzcxN2NhMWEyY2Y1Ng/epzhd2/vinhlong1_2000.stream/chunklist.m3u8
+https://live-zlr1.tv360.vn/manifest/Vinh_Long_1_HD/playlist_1080p.m3u8
 
 #EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/LJWVVRp/THVL2-HD-BEARTV.png",VĨNH LONG 2
-https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8dmluaGxvbmcyXzIwMDAuc3RyZWFtfHZucHR8MTY4NzkyNTQ1OXwxNC4xNzQuMjUxLjIyMXw3MjRjZjc3OTU1MmY2NzAyZDY0NGY0MDhlZDk3YzkwNw/epzhd2/vinhlong2_2000.stream/chunklist.m3u8
+https://live-zlr1.tv360.vn/manifest/VinhLong2_HD/playlist_1080p.m3u8
 
 #EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/Y8XFm4Z/THVL3-HD-BEARTV.png",VĨNH LONG 3
-https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8dmluaGxvbmczXzIwMDAuc3RyZWFtfHZucHR8MTY4NzkyNTQ4NXwxNC4xNzQuMjUxLjIyMXw4YmQ3ODgwZDNmMzRjYmViNGE5OWE1MTI2MDIwZjAzOA/epzhd2/vinhlong3_2000.stream/chunklist.m3u8
+https://live-zlr1.tv360.vn/manifest/VinhLong3_HD/playlist_1080p.m3u8
 
 #EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/F5VZQ8x/THVL4-HD-BEARTV.png",VĨNH LONG 4
-https://vips-livecdn.fptplay.net/MTU2NjMxNDZ8dmluaGxvbmc0aGRfMjAwMC5zdHJlYW18dm5wdHwxNjg3OTI1NTA4fDE0LjE3NC4yNTEuMjIxfDI0ZmU3OTJhZjZlNTAyZGQyZmNkZTNmMmFlMzliZDQx/epzhd2/vinhlong4hd_2000.stream/chunklist.m3u8
+https://live-ali2.tv360.vn/manifest/VinhLong4_HD/playlist_1080p.m3u8
