@@ -54,7 +54,9 @@ function START(){
   if(arr.length >0){
     log(arr)
   } else {
-    log(id("com.lyft.android.driver:id/design_core_map_components_bubble_text").find())
+    let a = className("android.view.View").depth(16).find()
+    log("new")
+    log(a)
   }
 }
 console.show()
