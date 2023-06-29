@@ -55,8 +55,10 @@ function START(){
     log(arr)
   } else {
     let a = className("android.view.View").depth(16).find()
-    log("new")
+    log("new 1")
     log(a)
+    log(a.find())
+    log(a[0].text)
   }
 }
 console.show()
