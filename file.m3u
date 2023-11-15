@@ -1,37 +1,22 @@
 #EXTM3U url-tvg="http://lichphatsong.xyz/schedule/beartv_epg.xml" tvg-shift=0 m3uautoload=1
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://i.ibb.co/mBHRZbg/VTV1-BEARTV.png",VTV1       
-https://live-zlr1.tv360.vn/manifest/VTV1_HD/playlist_1080p.m3u8
+https://vtvgolive-vtv.vtvdigital.vn/8y4QsHvdwdYh6htae9vdGA/1700030939/vtvdigital/vtv1-480p.m3u8
 
 #EXTINF:-1 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://i.ibb.co/1rGZzbN/VTV2-BEARTV.png",VTV2
-http://live-ali4.tv360.vn/manifest/vtv2/playlist_1080p.m3u8
+https://vtvgolive-vtv.vtvdigital.vn/SWHEcWE-kE0upq62JSkLJw/1700031035/vtvdigital/vtv2-480p.m3u8
 
 #EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://i.ibb.co/hKgN4RG/VTV3-BEARTV.png",VTV3      
-http://live-zlr1.tv360.vn/manifest/VTV3/playlist_1080p-5M.m3u8
+https://vtvgolive-vtv.vtvdigital.vn/UFf7AHNYgIJE2LPRjmmbFw/1700031067/vtvdigital/vtv3-480p.m3u8
 
 #EXTINF:-1 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://i.ibb.co/928wSRc/VTV4-BEARTV.png",VTV4       
-http://drfamaga5qliv.vcdn.cloud/vtv04/vtv04@1080p.m3u8
+https://vtvgolive-vtv.vtvdigital.vn/sF1fV26C16YT64CpVm7nsg/1700031087/vtvdigital/vtv4-480p.m3u8
 
 #EXTINF:-1 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://i.ibb.co/bKfw6Tc/VTV5-BEARTV.png",VTV5 [50fps]
-http://live-ali4.tv360.vn/manifest/VTV5_HD_50fps/playlist_VTV5-HD-50fps-1080P-65M.m3u8
+https://vtvgolive-vtv.vtvdigital.vn/9t6HB7eHuEbVJLcL4_bbpA/1700031115/vtvdigital/vtv5-480p.m3u8
 
 #EXTINF:-1 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://i.ibb.co/8cghHq1/vtv-cantho-BEARTV.png",VTV CẦN THƠ
-http://live-ali2.tv360.vn/manifest/VTV6_HD/playlist_720p.m3u8
-
-#EXTINF:-1 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://i.ibb.co/N6GVgfg/VTV7-BEARTV.png",VTV7
-http://drfamaga5qliv.vcdn.cloud/vtv07/vtv07@1080p.m3u8
-
-#EXTINF:-1 tvg-id="vtv8hd"group-title="VTV" tvg-logo="https://i.ibb.co/FYvN38c/VTV8-BEARTV.png",VTV8
-http://drfamaga5qliv.vcdn.cloud/vtv08/vtv08@1080p.m3u8
-
-#EXTINF:-1 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://i.ibb.co/Q671mTF/VTV9-BEARTV.png",VTV9
-http://drfamaga5qliv.vcdn.cloud/vtv09/vtv09@1080p.m3u8
-
-#EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="https://i.ibb.co/Hnc1LPG/VTV5-TNB-BEARTV.png",VTV5 TÂY NAM BỘ
-https://code.vthanhtivi.pw/getlink/mytv/615/hd.m3u8
-
-#EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://i.ibb.co/zVJz2CQ/VTV5-TN-BEARTV.png" ,VTV5 TÂY NGUYÊN
-https://code.vthanhtivi.pw/getlink/tv360/207/2.m3u8
+https://vtvgolive-vtv.vtvdigital.vn/t5z2COxI-1b8TrQHVsl-Dg/1700031141/vtvdigital/vtv6-480p.m3u8
 
 #EXTINF:-1 group-title="ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/2MVntS3/THVL1-HD-BEARTV.png",VĨNH LONG 1
 https://live-zlr1.tv360.vn/manifest/Vinh_Long_1_HD/playlist_1080p.m3u8
